@@ -25,18 +25,7 @@ export default function Projects() {
       <section id="work-list" className="home-work-list">
         <div className="boxed">
           {projectData.map((project, key) => {
-            return (
-              <ProjectItem
-                key={key}
-                id={key}
-                title={project.title}
-                path={project.slug}
-                tags={project.tags}
-                excerpt={project.excerpt}
-                image1={project.image1}
-                image2={project.image2}
-              />
-            );
+            return <ProjectItem key={key} id={key} project={project} />;
           })}
         </div>
       </section>

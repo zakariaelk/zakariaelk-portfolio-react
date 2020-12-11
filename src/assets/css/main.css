@@ -2087,6 +2087,7 @@ svg,
 }
 
 #about .about-container .intro .mark {
+  font-family: "ceraBold", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   -webkit-transition: all 0.5s ease 1s;
   transition: all 0.5s ease 1s;
 }

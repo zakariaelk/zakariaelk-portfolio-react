@@ -36,14 +36,14 @@ export default function Header() {
           <div className="logo-link">
             <a href="/">
               <span className="top-part">Zakaria Elk.</span>
-              <span className="bottom-part">UI Designer & Web Developer at PBB Creative.</span>
+              <span className="bottom-part">UX Designer, Frontend Developer, SEO Strategist</span>
             </a>
           </div>
 
           <nav role="nav" className="nav-wrapper">
             <div className="nav-container">
               <div className="nav-menu">
-                <a href="#contact">
+                <a href="mailto:work@zakariaelk.com" target="_blank">
                   get in touch
                   <svg className="chevron" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path

@@ -6,21 +6,21 @@ export default function ProjectItem(props) {
     <>
       <div className={`project-container ${props.id % 2 !== 0 ? `inverted` : ``}`}>
         <figure className="project-visual">
-          <Link to={`/work/${props.path}`} slug={props.path}>
-            <img className="img-1" src={`img/jpg/${props.image1}`} />
-            <img className="img-2" src={`img/jpg/${props.image2}`} />
+          <Link to={`/work/${props.project.slug}`} slug={props.project.slug}>
+            <img className="img-1" src={`img/jpg/${props.project.image1}`} />
+            <img className="img-2" src={`img/jpg/${props.project.image2}`} />
           </Link>
         </figure>
 
         <div className="project-text">
-          <h3 className="project-title">{props.title}</h3>
+          <h3 className="project-title">{props.project.title}</h3>
           <div className="project-tags">
-            {props.tags.map((tag, key) => {
-              return key === props.tags.length - 1 ? <span key={key}>{tag} </span> : <span key={key}>{tag}, </span>;
+            {props.project.tags.map((tag, key) => {
+              return key === props.project.tags.length - 1 ? <span key={key}>{tag} </span> : <span key={key}>{tag}, </span>;
             })}
           </div>
-          <p className="desc">{props.excerpt}</p>
-          <Link to={`/work/${props.path}`} slug={props.path} className="project-action">
+          <p className="desc">{props.project.excerpt}</p>
+          <Link to={`/work/${props.project.path}`} slug={props.project.path} className="project-action">
             learn more
           </Link>
         </div>

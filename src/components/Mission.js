@@ -9,9 +9,9 @@ export default function Mission() {
     const time = today.getHours();
 
     if (dynamicWelcome) {
-      if (time >= 6 && time <= 12) {
+      if (time > 6 && time < 12) {
         dynamicWelcome.innerHTML = "How's your day starting?";
-      } else if (time >= 12 && time <= 17) {
+      } else if (time >= 12 && time < 17) {
         dynamicWelcome.innerHTML = "Having a nice afternoon?";
       } else {
         dynamicWelcome.innerHTML = "Having a good evening?";
