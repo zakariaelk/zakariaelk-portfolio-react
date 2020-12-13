@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { workAnim } from "./PageAnime";
 import RevealWork from "./RevealWork";
@@ -8,7 +8,6 @@ export default function ProjectDetails(props) {
 
   const postId = Object.entries(projects).filter((entry, key) => {
     if (entry[1].slug === match.params.id) {
-      // console.log(entry);
       return entry;
     }
   });
@@ -17,6 +16,8 @@ export default function ProjectDetails(props) {
   const currentPost = postId[0][1];
   const nextPostID = parseInt(currentPostID) + 1;
   const nextPost = projects[nextPostID];
+
+  const [url, setURL] = useState("");
 
   useEffect(() => {
     workAnim();
@@ -48,6 +49,7 @@ export default function ProjectDetails(props) {
                 <img src={`../img/jpg/${currentPost.image2}`} alt={currentPost.title} />
               </div>
             </div>
+            <i className="scroll-indic">&gt;</i>
           </div>
         </section>
 
@@ -112,7 +114,7 @@ export default function ProjectDetails(props) {
             </div>
           </Link>
         ) : (
-          <Link className="next-post-nav" to={`/work/${nextPost.slug}`}>
+          <Link className="next-post-nav" to={`/work/${nextPost.slug}`} onClick={() => setURL(nextPost.slug)}>
             <div className="next-link" data-label="more work">
               up next
             </div>

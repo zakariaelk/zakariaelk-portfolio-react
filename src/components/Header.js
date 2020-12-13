@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import SmoothScroll from "./SmoothScroll";
 
 export default function Header() {
   function updateOnScroll() {
@@ -27,6 +28,8 @@ export default function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", updateOnScroll);
+    const linksToAnchors = document.querySelectorAll('a[href^="#"]');
+    linksToAnchors.forEach((each) => (each.onclick = SmoothScroll));
   });
 
   return (

@@ -82,10 +82,14 @@ export function workAnim() {
   workAnim
     .add({
       targets: loader,
+      // begin: function () {
+      //   loader.classList.remove("off");
+      // },
       complete: function () {
         loader.classList.add("off");
       },
     })
+
     .add({
       targets: htmlDom,
       complete: function () {
