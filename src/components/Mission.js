@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { homeAnim } from "./PageAnime";
+import PageAnime from "./PageAnime";
 import RippleMe from "./RippleMe";
 
 export default function Mission() {
@@ -26,7 +26,7 @@ export default function Mission() {
   useEffect(() => {
     dynamicWelcome();
     RippleMe();
-    homeAnim();
+    PageAnime();
   }, []);
 
   return (

@@ -319,7 +319,7 @@
     }
   }
 
-  .next-post-nav {
+  .next-post-nav, div[role=link] {
     display: flex;
     margin: auto;
     padding: 4rem 0;

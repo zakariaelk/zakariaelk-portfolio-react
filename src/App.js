@@ -9,9 +9,10 @@ import projectsData from "./data/projects-data";
 import "./assets/fonts/cerapro/cerapro-bold.woff";
 import "./assets/fonts/cerapro/cerapro-medium.woff";
 import "./assets/fonts/cerapro/cerapro-regular.woff";
-import "./assets/fonts/cerapro/cerapro-light.woff"; 
+import "./assets/fonts/cerapro/cerapro-light.woff";
 import "./assets/css/main.css";
 import Loader from "./components/Loader";
+import PageAnime from "./components/PageAnime";
 
 function App() {
   return (

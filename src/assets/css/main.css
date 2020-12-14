@@ -907,18 +907,18 @@ h3 {
   }
 }
 
-.size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+.size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
   font-size: 36px;
 }
 
 @media (min-width: 320px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: calc(33px + 100vw * 0.00937);
   }
 }
 
 @media (min-width: 1600px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 48px;
   }
 }
@@ -939,18 +939,18 @@ h3 {
   }
 }
 
-.size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link {
+.size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link, #work div[role=link] .next-link {
   font-size: 18px;
 }
 
 @media (min-width: 320px) {
-  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link {
+  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link, #work div[role=link] .next-link {
     font-size: calc(17.25px + 100vw * 0.00234);
   }
 }
 
 @media (min-width: 1600px) {
-  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link {
+  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link, #work div[role=link] .next-link {
     font-size: 21px;
   }
 }
@@ -1027,19 +1027,19 @@ body, header .top-header .logo-link a .bottom-part {
 }
 
 @media only screen and (max-width: 1440px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 30px;
   }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 320px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: calc(27px + 100vw * 0.00937);
   }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1600px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 42px;
   }
 }
@@ -1063,7 +1063,7 @@ body, header .top-header .logo-link a .bottom-part {
 }
 
 @media only screen and (max-width: 1440px) {
-  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link {
+  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link, #work div[role=link] .next-link {
     font-size: 19px;
   }
   .size-6, html,
@@ -1112,19 +1112,19 @@ body, header .top-header .logo-link a .bottom-part {
 }
 
 @media only screen and (max-width: 991px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 26px;
   }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 320px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: calc(23.5px + 100vw * 0.00781);
   }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 1600px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 36px;
   }
 }
@@ -1166,13 +1166,13 @@ body, header .top-header .logo-link a .bottom-part {
 }
 
 @media only screen and (max-width: 600px) {
-  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label {
+  .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label, #work div[role=link] .next-label {
     font-size: 24px;
   }
   .size-4, #about .about-container .intro {
     font-size: 21px;
   }
-  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link {
+  .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link, #work div[role=link] .next-link {
     font-size: 16px;
   }
   .size-6, html,
@@ -1437,6 +1437,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
 .nav-wrapper .nav-container .nav-menu a .chevron {
   width: 22px;
   height: 23px;
+  margin-left: 5px;
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -2839,7 +2840,7 @@ svg,
   opacity: 1;
 }
 
-#work .next-post-nav {
+#work .next-post-nav, #work div[role=link] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2851,12 +2852,12 @@ svg,
 }
 
 @media only screen and (max-width: 600px) {
-  #work .next-post-nav {
+  #work .next-post-nav, #work div[role=link] {
     padding: 4rem 0;
   }
 }
 
-#work .next-post-nav .next-link {
+#work .next-post-nav .next-link, #work div[role=link] .next-link {
   margin: 0rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -2864,14 +2865,14 @@ svg,
   color: #010101 !important;
 }
 
-#work .next-post-nav .next-link:after {
+#work .next-post-nav .next-link:after, #work div[role=link] .next-link:after {
   content: ">";
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 0 1rem;
 }
 
-#work .next-post-nav .next-label {
+#work .next-post-nav .next-label, #work div[role=link] .next-label {
   position: relative;
   overflow: hidden;
   display: block;
@@ -2883,7 +2884,7 @@ svg,
   transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-#work .next-post-nav .next-label:before {
+#work .next-post-nav .next-label:before, #work div[role=link] .next-label:before {
   content: "";
   position: absolute;
   top: 0%;
@@ -2899,23 +2900,23 @@ svg,
 }
 
 @media only screen and (max-width: 991px) {
-  #work .next-post-nav .next-label:before {
+  #work .next-post-nav .next-label:before, #work div[role=link] .next-label:before {
     height: 2px;
     top: 92%;
   }
 }
 
-#work .next-post-nav:hover .next-label {
+#work .next-post-nav:hover .next-label, #work div[role=link]:hover .next-label {
   color: #ffffff;
 }
 
 @media only screen and (max-width: 991px) {
-  #work .next-post-nav:hover .next-label {
+  #work .next-post-nav:hover .next-label, #work div[role=link]:hover .next-label {
     color: #010101;
   }
 }
 
-#work .next-post-nav:hover .next-label:before {
+#work .next-post-nav:hover .next-label:before, #work div[role=link]:hover .next-label:before {
   -webkit-transform: translate3d(0%, 0, 0);
           transform: translate3d(0%, 0, 0);
 }

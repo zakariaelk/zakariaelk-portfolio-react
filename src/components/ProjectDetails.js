@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { workAnim } from "./PageAnime";
+import DelayLink from "react-delay-link";
 import RevealWork from "./RevealWork";
+import PageAnime from "./PageAnime";
+// import { withRouter } from "react-router-dom";
+import Loader from "../components/Loader";
+import ScrollToTop from "./ScrollToTop";
+
+function initLoad() {
+  const loader = document.querySelector("#loader");
+  loader.classList.remove("off");
+}
 
 export default function ProjectDetails(props) {
   const { projects, match } = props;
@@ -17,10 +26,13 @@ export default function ProjectDetails(props) {
   const nextPostID = parseInt(currentPostID) + 1;
   const nextPost = projects[nextPostID];
 
-  const [url, setURL] = useState("");
+  let currentPathName = props.location.pathname;
+
+  const [url, setURL] = useState(currentPathName);
 
   useEffect(() => {
-    workAnim();
+    initLoad();
+    PageAnime();
   }, []);
 
   useEffect(() => {
@@ -105,7 +117,7 @@ export default function ProjectDetails(props) {
         </section>
 
         {parseInt(postId[0][0]) === projects.length - 1 ? (
-          <Link className="next-post-nav" to="/">
+          <Link className="next-post-nav" to="/" onClick={initLoad}>
             <div className="next-link" data-label="more work">
               back to
             </div>
@@ -114,13 +126,15 @@ export default function ProjectDetails(props) {
             </div>
           </Link>
         ) : (
-          <Link className="next-post-nav" to={`/work/${nextPost.slug}`} onClick={() => setURL(nextPost.slug)}>
-            <div className="next-link" data-label="more work">
-              up next
-            </div>
-            <div className="next-label" data-label="see here">
-              {nextPost.title}
-            </div>
+          <Link className="next-post-nav" to={`/work/${nextPost.slug}`}>
+            <DelayLink delay={1000} to={`/work/${nextPost.slug}`} clickAction={initLoad} replace={false} className="next-post-nav">
+              <div className="next-link" data-label="more work">
+                up next
+              </div>
+              <div className="next-label" data-label="see here">
+                {nextPost.title}
+              </div>
+            </DelayLink>
           </Link>
         )}
       </div>
