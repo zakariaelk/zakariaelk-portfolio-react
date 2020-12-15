@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import DelayLink from "react-delay-link";
-import RevealWork from "./RevealWork";
-import PageAnime from "./PageAnime";
+import RevealWork from "../RevealWork";
+import PageAnime from "../PageAnime";
 // import { withRouter } from "react-router-dom";
-import Loader from "../components/Loader";
-import ScrollToTop from "./ScrollToTop";
+import Loader from "../Loader";
+import ScrollToTop from "../ScrollToTop";
 
 function initLoad() {
   const loader = document.querySelector("#loader");
@@ -21,13 +21,7 @@ export default function ProjectDetails(props) {
     }
   });
 
-  const currentPostID = postId[0][0];
-  const currentPost = postId[0][1];
-  const nextPostID = parseInt(currentPostID) + 1;
-  const nextPost = projects[nextPostID];
-
   let currentPathName = props.location.pathname;
-
   const [url, setURL] = useState(currentPathName);
 
   useEffect(() => {
@@ -46,6 +40,17 @@ export default function ProjectDetails(props) {
       };
     });
   });
+
+  /* Redirecting to Home if project slug is incorrect */
+  if (postId.length === 0) {
+    window.location.replace("/");
+  }
+
+  /* Redirecting to Home if project slug is incorrect */
+  const currentPostID = postId[0][0];
+  const currentPost = postId[0][1];
+  const nextPostID = parseInt(currentPostID) + 1;
+  const nextPost = projects[nextPostID];
 
   return (
     <>
