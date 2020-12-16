@@ -2261,6 +2261,10 @@ svg,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #work-list .project-container .project-visual a:after {
@@ -2272,8 +2276,8 @@ svg,
   right: 0;
   z-index: 1;
   background-color: #ffffff;
-  -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: width 1.5s ease-out;
+  transition: width 1.5s ease-out;
 }
 
 @media only screen and (max-width: 991px) {

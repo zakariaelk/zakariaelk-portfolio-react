@@ -4,7 +4,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
-import DefaultPage from "./components/pages/DefaultPage";
+import DefaultPage from "./components/DefaultPage";
 import ProjectDetails from "./components/pages/ProjectDetails";
 import projectsData from "./data/projects-data";
 import "./assets/fonts/cerapro/cerapro-bold.woff";
@@ -12,6 +12,9 @@ import "./assets/fonts/cerapro/cerapro-medium.woff";
 import "./assets/fonts/cerapro/cerapro-regular.woff";
 import "./assets/fonts/cerapro/cerapro-light.woff";
 import "./assets/css/main.css";
+import "./assets/img/alwin-01.jpg";
+import "./assets/img/alwin-02.jpg";
+import "./assets/img/alwin-03.jpg";
 import Loader from "./components/Loader";
 import PageAnime from "./components/PageAnime";
 
