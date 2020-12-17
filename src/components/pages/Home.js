@@ -1,13 +1,13 @@
 import React from "react";
 import Mission from "../Mission";
-import Projects from "../ProjectList";
+import ProjectsList from "../ProjectList";
 
 function Home() {
   return (
     <>
       <div id="home">
         <Mission />
-        <Projects />
+        <ProjectsList />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Loader } from "three";
 import App from "./App";
+import firebase from "firebase";
 
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1826,7 +1826,7 @@ svg,
   opacity: 0;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  background-color: transparent;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2276,8 +2276,8 @@ svg,
   right: 0;
   z-index: 1;
   background-color: #ffffff;
-  -webkit-transition: width 1.5s ease-out;
-  transition: width 1.5s ease-out;
+  -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 @media only screen and (max-width: 991px) {

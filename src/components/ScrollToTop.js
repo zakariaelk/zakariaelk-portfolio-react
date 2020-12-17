@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-import PageAnime, { homeAnim, workAnim } from "./PageAnime";
+import PageAnime from "./PageAnime";
 
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {

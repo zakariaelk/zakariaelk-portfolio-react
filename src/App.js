@@ -1,24 +1,30 @@
-import logo from "./logo.svg";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import FetchData, { gotData } from "./components/FetchData";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
 import DefaultPage from "./components/DefaultPage";
 import ProjectDetails from "./components/pages/ProjectDetails";
-import projectsData from "./data/projects-data";
+import Loader from "./components/Loader";
 import "./assets/fonts/cerapro/cerapro-bold.woff";
 import "./assets/fonts/cerapro/cerapro-medium.woff";
 import "./assets/fonts/cerapro/cerapro-regular.woff";
 import "./assets/fonts/cerapro/cerapro-light.woff";
 import "./assets/css/main.css";
-import "./assets/img/alwin-01.jpg";
-import "./assets/img/alwin-02.jpg";
-import "./assets/img/alwin-03.jpg";
-import Loader from "./components/Loader";
-import PageAnime from "./components/PageAnime";
 
 function App() {
+  let projectsData;
+  let localStorageRef = localStorage.getItem("projects");
+
+  if (localStorageRef !== null && localStorageRef !== undefined) {
+    console.log("setting state with localstorage Data");
+    projectsData = JSON.parse(localStorageRef);
+  } else {
+    console.log("Fetching Data");
+    FetchData();
+  }
+
   return (
     <>
       <Router>
