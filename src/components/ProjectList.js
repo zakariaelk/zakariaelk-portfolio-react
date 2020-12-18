@@ -1,10 +1,15 @@
 import React, { Component, useEffect, useLayoutEffect, useState } from "react";
 import ProjectItem from "./ProjectItem";
 import projectData from "../data/projects-data.json";
+import FetchData from "./FetchData";
 import RevealWork from "./RevealWork";
 
 export default function Projects() {
   const projects = projectData.projects;
+  // let projects = FetchData;
+  // FetchData();
+  // console.log(projects);
+  // let projectsData = FetchData;
 
   useEffect(() => {
     window.addEventListener("scroll", function () {

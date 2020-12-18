@@ -1,5 +1,6 @@
 import React from "react";
 import firebase from "firebase";
+import projectData from "../data/projects-data";
 
 let projectsData;
 
@@ -16,9 +17,9 @@ const firebaseConfig = {
 // GET DATA
 export function gotData(projectsRef) {
   const projects = projectsRef.val();
-  projectsData = projects;
-  console.log(projectsData);
-  localStorage.setItem("projects", JSON.stringify(projectsData));
+  return projects;
+  // return projectsData;
+  // localStorage.setItem("projects", JSON.stringify(projectsData));
 }
 
 //ERR DATA

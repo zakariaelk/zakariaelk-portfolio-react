@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import DelayLink from "react-delay-link";
 import RevealWork from "../RevealWork";
 import PageAnime from "../PageAnime";
-import { ObjectSpaceNormalMap } from "three";
 
 function initLoad() {
   const loader = document.querySelector("#loader");
@@ -64,8 +63,17 @@ export default function ProjectDetails(props) {
     fetchData();
   }
 
+  const { projects, match } = props;
+
+  const postId = Object.entries(projects).filter((entry, key) => {
+    if (entry[1].slug === match.params.id) {
+      return entry;
+    }
+  });
+
   let currentPathName = props.location.pathname;
   const [url, setURL] = useState(currentPathName);
+
   useEffect(() => {
     initLoad();
     console.log("Use effect");
@@ -84,27 +92,18 @@ export default function ProjectDetails(props) {
     });
   });
 
-  if (gotData !== null) {
-    const { projects, match } = props;
-    const postId = projects.filter((entry, key) => {
-      if (entry.slug === match.params.id) {
-        return entry;
-      }
-    });
+  /* Redirecting to Home if project slug is incorrect */
+  if (postId.length === 0) {
+    window.location.replace("/");
+  }
 
-    /* Redirecting to Home if project slug is incorrect */
-    if (postId.length === 0) {
-      window.location.replace("/");
-    }
+  /* Redirecting to Home if project slug is incorrect */
+  const currentPostID = postId[0][0];
+  const currentPost = postId[0][1];
+  const nextPostID = parseInt(currentPostID) + 1;
+  const nextPost = projects[nextPostID];
 
-    console.log(projects.indexOf(postId[0]));
-
-    /* Redirecting to Home if project slug is incorrect */
-    const currentPostID = projects.indexOf(postId[0]);
-    const currentPost = postId[0];
-    const nextPostID = parseInt(currentPostID) + 1;
-    const nextPost = projects[nextPostID];
-
+  if (gotData) {
     return (
       <>
         <div id="work">
