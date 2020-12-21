@@ -72,7 +72,8 @@ export default function ProjectDetails(props) {
   });
 
   let currentPathName = props.location.pathname;
-  const [url, setURL] = useState(currentPathName);
+
+  const [url, setURL] = useState({ projectUrl: currentPathName });
 
   useEffect(() => {
     initLoad();
@@ -90,7 +91,7 @@ export default function ProjectDetails(props) {
         window.removeEventListener("scroll");
       };
     });
-  });
+  }, []);
 
   /* Redirecting to Home if project slug is incorrect */
   if (postId.length === 0) {
@@ -98,6 +99,7 @@ export default function ProjectDetails(props) {
   }
 
   /* Redirecting to Home if project slug is incorrect */
+
   const currentPostID = postId[0][0];
   const currentPost = postId[0][1];
   const nextPostID = parseInt(currentPostID) + 1;

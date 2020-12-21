@@ -4,13 +4,7 @@ import projectData from "../data/projects-data.json";
 import FetchData from "./FetchData";
 import RevealWork from "./RevealWork";
 
-export default function Projects() {
-  const projects = projectData.projects;
-  // let projects = FetchData;
-  // FetchData();
-  // console.log(projects);
-  // let projectsData = FetchData;
-
+export default function Projects(props) {
   useEffect(() => {
     window.addEventListener("scroll", function () {
       const workVisual = document.querySelectorAll(".project-visual a");
@@ -31,7 +25,7 @@ export default function Projects() {
     <>
       <section id="work-list" className="home-work-list">
         <div className="boxed">
-          {projects.map((project, key) => {
+          {props.projects.map((project, key) => {
             return <ProjectItem key={key} id={key} project={project} />;
           })}
         </div>
