@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import projectData from "../data/projects-data";
 import RevealWork from "./RevealWork";
 
-export default function Projects() {
+export default function Projects(props) {
   useEffect(() => {
     window.addEventListener("scroll", function () {
       const workVisual = document.querySelectorAll(".project-visual a");
@@ -24,7 +24,7 @@ export default function Projects() {
     <>
       <section id="work-list" className="home-work-list">
         <div className="boxed">
-          {projectData.map((project, key) => {
+          {props.projects.map((project, key) => {
             return <ProjectItem key={key} id={key} project={project} />;
           })}
         </div>
