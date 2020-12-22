@@ -7,12 +7,12 @@
 header {
   position: fixed;
   width: 100%;
-  padding: 3rem 3rem 2rem;
-  background: $white;
+  padding: 2rem 3rem 1.4rem;
+  background: $black;
   transition: $t-all;
   z-index: 20;
-  background-color: hsla(0, 0%, 100%, 0.68);
-  backdrop-filter: saturate(180%) blur(20px);
+  background-color: hsla(0%, 0%, 0%, 0.68);
+  // backdrop-filter: saturate(180%) blur(20px);
 
   @media #{$max-phone} {
     padding: 2rem 2rem 1rem;

@@ -20,7 +20,7 @@ export default function ProjectItem(props) {
             })}
           </div>
           <p className="desc">{props.project.excerpt}</p>
-          <Link to={`/work/${props.project.slug}`} slug={props.project.slug} className="project-action">
+          <Link to={`/work/${props.project.slug}`} slug={props.project.slug} className="project-action dark">
             learn more
           </Link>
         </div>
