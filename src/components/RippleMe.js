@@ -4,6 +4,16 @@ import ripples from "jquery.ripples";
 
 export default function RippleMe() {
   const rippleObj = document.querySelector(".side-visual");
+  const today = new Date();
+  const time = today.getHours();
+  let imgSrc;
+
+  if (time > 6 && time < 16) {
+    imgSrc = "05";
+  } else {
+    imgSrc = "04";
+  }
+
   if (rippleObj) {
     let screenSize = $(window).width();
 
@@ -19,7 +29,7 @@ export default function RippleMe() {
       dropRadius: 20,
       perturbance: 0.03,
       resolution: screenSize,
-      imageUrl: "img/png/water-shape-04.png",
+      imageUrl: `img/png/water-shape-${imgSrc}.png`,
     });
 
     // Automatic drops

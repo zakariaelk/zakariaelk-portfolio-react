@@ -1874,7 +1874,7 @@ svg,
 }
 
 #home .side-visual {
-  width: 55%;
+  width: 50%;
   height: 100%;
   position: absolute;
   bottom: 0;
@@ -1889,11 +1889,8 @@ svg,
 
 @media only screen and (max-width: 600px) {
   #home .side-visual {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-    width: 420px;
-    height: 420px;
-    bottom: -10%;
+    width: 60%;
+    bottom: 0%;
   }
 }
 
@@ -1983,7 +1980,8 @@ svg,
   #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
     height: auto;
     overflow: visible;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    line-height: 0;
   }
 }
 
@@ -2038,6 +2036,7 @@ svg,
 @media only screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement div span {
     position: relative;
+    line-height: 1.1;
   }
 }
 

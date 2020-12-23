@@ -67,7 +67,7 @@ export default function ProjectDetails(props) {
           <div className="info-content boxed-wide">
             <div className="container-l">
               <div className="col-4 info-title">
-                <h2>What i did</h2>
+                <h2>Context</h2>
               </div>
               <div className="col-8 info-details">
                 <div className="info-intro">{currentPost.intro}</div>

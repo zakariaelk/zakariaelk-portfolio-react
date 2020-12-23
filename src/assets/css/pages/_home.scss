@@ -13,7 +13,7 @@
     backdrop-filter: saturate(180%) blur(10px);
   }
   .side-visual {
-    @include size(55%, 100%);
+    @include size(50%, 100%);
     position: absolute;
     bottom: 0;
     right: 0;
@@ -34,10 +34,8 @@
     }
 
     @media #{$max-phone} {
-      transform: rotate(90deg);
-      width: 420px;
-      height: 420px;
-      bottom: -10%;
+      width: 60%;
+      bottom: 0%;
     }
 
     &.on {
@@ -111,7 +109,8 @@
             @media #{$max-tablet} {
               height: auto;
               overflow: visible;
-              margin-bottom: 0;
+              margin-bottom: 1rem;
+              line-height: 0;
             }
 
             @media #{$max-phone} {
@@ -155,6 +154,7 @@
 
             @media #{$max-tablet} {
               position: relative;
+              line-height: 1.1;
             }
           }
         }

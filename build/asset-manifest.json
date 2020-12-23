@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.975610d2.chunk.css",
-    "main.js": "/static/js/main.b98b5a4e.chunk.js",
-    "main.js.map": "/static/js/main.b98b5a4e.chunk.js.map",
+    "main.css": "/static/css/main.b88e9168.chunk.css",
+    "main.js": "/static/js/main.9ea25057.chunk.js",
+    "main.js.map": "/static/js/main.9ea25057.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c0ac9ac.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c0ac9ac.js.map",
     "static/js/2.b94930dc.chunk.js": "/static/js/2.b94930dc.chunk.js",
     "static/js/2.b94930dc.chunk.js.map": "/static/js/2.b94930dc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.975610d2.chunk.css.map": "/static/css/main.975610d2.chunk.css.map",
+    "static/css/main.b88e9168.chunk.css.map": "/static/css/main.b88e9168.chunk.css.map",
     "static/js/2.b94930dc.chunk.js.LICENSE.txt": "/static/js/2.b94930dc.chunk.js.LICENSE.txt",
     "static/media/alwin-01.396fdb9f.jpg": "/static/media/alwin-01.396fdb9f.jpg",
     "static/media/alwin-02.b69bd85f.jpg": "/static/media/alwin-02.b69bd85f.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.2c0ac9ac.js",
     "static/js/2.b94930dc.chunk.js",
-    "static/css/main.975610d2.chunk.css",
-    "static/js/main.b98b5a4e.chunk.js"
+    "static/css/main.b88e9168.chunk.css",
+    "static/js/main.9ea25057.chunk.js"
   ]
 }
