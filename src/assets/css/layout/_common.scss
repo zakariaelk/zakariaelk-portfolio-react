@@ -23,9 +23,28 @@
   }
 }
 
+.boxed-wide {
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  @media #{$max-phone} {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .boxed {
   padding-left: 3rem;
   padding-right: 3rem;
+  max-width: 1400px;
+  margin: auto;
+  display: block;
+
+  @media #{$max-laptop} {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1024px;
+  }
 
   @media #{$max-tablet} {
     padding-left: 3rem;

@@ -24,7 +24,7 @@ export default function Projects(props) {
   return (
     <>
       <section id="work-list" className="home-work-list">
-        <div className="boxed">
+        <div className="boxed-wide">
           {props.projects.map((project, key) => {
             return <ProjectItem key={key} id={key} project={project} />;
           })}

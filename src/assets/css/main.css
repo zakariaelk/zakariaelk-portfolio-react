@@ -1517,9 +1517,32 @@ header .top-header .logo-link a .bottom-part.scrolled {
   padding-bottom: 140px;
 }
 
+.boxed-wide {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .boxed-wide {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .boxed {
   padding-left: 3rem;
   padding-right: 3rem;
+  max-width: 1400px;
+  margin: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 1440px) {
+  .boxed {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1024px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -2189,7 +2212,7 @@ svg,
 }
 
 @media only screen and (max-width: 600px) {
-  #work-list .boxed {
+  #work-list .boxed-wide {
     padding-left: 0;
     padding-right: 0;
   }
@@ -2862,6 +2885,13 @@ svg,
   opacity: 0;
   -webkit-transition: all 0.4s ease 0.2s;
   transition: all 0.4s ease 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  #work .visual-content .visual-figure img {
+    -webkit-box-shadow: 2px 2px 6px 1px #1b1b1b;
+            box-shadow: 2px 2px 6px 1px #1b1b1b;
+  }
 }
 
 #work .visual-content .visual-figure img.on {

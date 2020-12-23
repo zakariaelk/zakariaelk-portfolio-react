@@ -49,7 +49,7 @@ export default function ProjectDetails(props) {
     <>
       <div id="work">
         <section id="project-hero">
-          <div className="hero-content boxed">
+          <div className="hero-content boxed-wide">
             <div className="container-l">
               <div className="col-4 banner-txt">
                 <h1>{currentPost.title}</h1>
@@ -64,7 +64,7 @@ export default function ProjectDetails(props) {
         </section>
 
         <section id="project-info">
-          <div className="info-content boxed">
+          <div className="info-content boxed-wide">
             <div className="container-l">
               <div className="col-4 info-title">
                 <h2>What i did</h2>

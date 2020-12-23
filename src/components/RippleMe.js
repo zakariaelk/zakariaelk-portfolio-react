@@ -8,10 +8,10 @@ export default function RippleMe() {
     let screenSize = $(window).width();
 
     if ($(window).width() < 768) {
-      screenSize = 512;
+      screenSize = 400;
       $(".side-visual").ripples("updateSize");
     } else {
-      screenSize = 256;
+      screenSize = 360;
       $(".side-visual").ripples("updateSize");
     }
 
