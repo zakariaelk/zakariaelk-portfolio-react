@@ -8,10 +8,9 @@ header {
   position: fixed;
   width: 100%;
   padding: 2rem 3rem 1.4rem;
-  background: $black;
   transition: $t-all;
   z-index: 20;
-  background-color: hsla(0%, 0%, 0%, 0.68);
+  // background-color: hsla(0%, 0%, 0%, 0.68);
   // backdrop-filter: saturate(180%) blur(20px);
 
   @media #{$max-phone} {
@@ -19,6 +18,8 @@ header {
   }
 
   &.scrolled {
+    background-color: hsla(0%, 0%, 0%, 0.68);
+    backdrop-filter: saturate(180%) blur(20px);
     transform: translate3d(0, -1rem, 0);
 
     @media #{$max-phone} {

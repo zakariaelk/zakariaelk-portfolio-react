@@ -52,11 +52,11 @@ function App() {
       firebase.initializeApp(firebaseConfig);
     }
     const database = firebase.database();
-    console.log(database);
+    // console.log(database);
 
     const projectsRef = database.ref("projects");
     setData({ projects: data.projects, isFetching: true });
-    projectsRef.on("value", gotData, errData);
+    projectsRef.once("value", gotData, errData);
   }
 
   useEffect(() => {

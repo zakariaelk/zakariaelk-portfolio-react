@@ -9,15 +9,17 @@ export default function RippleMe() {
 
     if ($(window).width() < 768) {
       screenSize = 512;
+      $(".side-visual").ripples("updateSize");
     } else {
       screenSize = 256;
+      $(".side-visual").ripples("updateSize");
     }
 
     $(".side-visual").ripples({
       dropRadius: 20,
-      perturbance: 0.04,
+      perturbance: 0.03,
       resolution: screenSize,
-      imageUrl: "img/svg/water-shape.svg",
+      imageUrl: "img/png/water-shape-04.png",
     });
 
     // Automatic drops

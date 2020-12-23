@@ -91,7 +91,7 @@ export default function ProjectDetails(props) {
                   <div className="info-list">
                     <span className="list-title">take a look</span>
                     <div className="list-details site-link">
-                      <a href={`http://${currentPost.site}`} target="_blank">
+                      <a href={`${currentPost.site}`} target="_blank">
                         {currentPost.site}
                       </a>
                     </div>

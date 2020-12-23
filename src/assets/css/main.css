@@ -1318,11 +1318,9 @@ header {
   position: fixed;
   width: 100%;
   padding: 2rem 3rem 1.4rem;
-  background: #010101;
   -webkit-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.68);
 }
 
 @media only screen and (max-width: 600px) {
@@ -1332,6 +1330,9 @@ header {
 }
 
 header.scrolled {
+  background-color: rgba(0, 0, 0, 0.68);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
   -webkit-transform: translate3d(0, -1rem, 0);
           transform: translate3d(0, -1rem, 0);
 }
@@ -1836,12 +1837,25 @@ svg,
     Author: Zakaria El Khachia
     Client: Zakaria Elk
 */
-#home .side-visual {
+#home .ripple-overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
   position: absolute;
-  width: 768px;
-  height: 768px;
-  top: 30%;
-  right: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+}
+
+#home .side-visual {
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   opacity: 0;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -1850,27 +1864,13 @@ svg,
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1440px) {
-  #home .side-visual {
-    width: 600px;
-    height: 600px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  #home .side-visual {
-    top: 90%;
-    width: 560px;
-    height: 560px;
-    -webkit-transform: translateY(-70%);
-            transform: translateY(-70%);
-  }
-}
-
 @media only screen and (max-width: 600px) {
   #home .side-visual {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
     width: 420px;
     height: 420px;
+    bottom: -10%;
   }
 }
 
@@ -2857,8 +2857,8 @@ svg,
   margin: auto;
   display: block;
   padding: 0;
-  -webkit-box-shadow: 1px 1px 20px 6px #f3f3f3;
-          box-shadow: 1px 1px 20px 6px #f3f3f3;
+  -webkit-box-shadow: 1px 1px 3px 2px #f3f3f3;
+          box-shadow: 1px 1px 3px 2px #f3f3f3;
   opacity: 0;
   -webkit-transition: all 0.4s ease 0.2s;
   transition: all 0.4s ease 0.2s;

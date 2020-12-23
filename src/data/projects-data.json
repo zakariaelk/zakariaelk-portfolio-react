@@ -11,7 +11,7 @@
       "Specializing in architecture and construction services, Daga Architects reached out to me with a specific set of goals, of which International expansion was a top priority. I had the chance to work together with their creative team to translate their ideas into a seamless digital experience.",
     "categories": ["user journey mapping", "web design", "frontend development", "wordpress integration"],
     "year": "2019",
-    "site": "daga.zakariaelk.com",
+    "site": "https://daga.zakariaelk.com",
     "note": "site might run slow due to hosting restrictions in Mainland China",
     "visuals": ["daga-03.jpg", "daga-04.jpg", "daga-05.jpg"]
   },
@@ -27,7 +27,7 @@
       "Being one of the top leaders in the Game & Attraction Industry, Triotech was looking to adapt their web image to the Chinese audience. For that purpose, I took a simple approach with both the design and code, allowing the website to operate smoothly across widely used browsers and devices in China, and ultimately, improving the overall user experience.",
     "categories": ["web design", "frontend development", "cms integration", "cross-device adaptation", "seo", "web development"],
     "year": "2020",
-    "site": "triotechchina.com",
+    "site": "https://triotechchina.com",
     "note": "",
     "visuals": ["triotech-03.jpg", "triotech-04.jpg"]
   },
@@ -43,7 +43,7 @@
       "CanLife Sports is a branding and marketing agency, that help winter sports companies expand their operations in China. I worked with them to revamp their website with a modern approach to user experience across all devices, and thus allowing them to easily reach their online audience, and showcase their expertise.",
     "categories": ["web design", "frontend development", "cms integration", "web development"],
     "year": "2020",
-    "site": "canlifesports.com",
+    "site": "http://canlifesports.com",
     "note": "",
     "visuals": ["canlife-03.jpg"]
   },
@@ -59,7 +59,7 @@
       "Together with the PBB Creative team, I had the chance to work on designing and developing the new Alwin Capital’s corporate website. This site was built to provide its audience with concise information about the company’s vision for investment in science. It features a portfolio section, categorized by the different industries in which Alwin Capital is active.",
     "categories": ["user journey mapping", "web design", "frontend development"],
     "year": "2020",
-    "site": "alwincapital.com",
+    "site": "https://alwincapital.com",
     "note": "",
     "visuals": ["alwin-03.jpg", "alwin-04.jpg"]
   },
@@ -75,7 +75,7 @@
       "3e international school is a well established institute, that has a mission to develop creative thinkers and collaborative learners who are able to move respectfully and appreciatively across cultures. I worked together with their communication team and PBB to design and develop a new website, that serves as a platform for publishing news and events. The latter was built on solid SEO guidelines allowing it to rank first in SERP for the targeted keywords.",
     "categories": ["user journey", "web design", "frontend development", "wordpress cms integration", "seo"],
     "year": "2018",
-    "site": "3einternationalschool.org",
+    "site": "https://3einternationalschool.org",
     "note": "",
     "visuals": ["3e-03.jpg"]
   },
@@ -91,7 +91,7 @@
       "Grace is an artist who’s work is focused on the experimentation of different series of ideas, converging in a storytelling form. I worked with her to design and develop her portfolio, enabling her to easily reach out to her audience.",
     "categories": ["user journey", "web design", "frontend development", "wordpress cms integration", "seo"],
     "year": "2019",
-    "site": "gracegchoy.com",
+    "site": "https://gracegchoy.com",
     "note": "",
     "visuals": ["grace-03.jpg"]
   },
@@ -107,7 +107,7 @@
       "LFIP is a school of success with a unique approach to education, as it welcomes more than 900 students from 50 different countries. The key to LFIP students’ success lies in the balance of learning, developing skills, personal growth and exposure to a multicultural environment. I had the chance to work on the complete revamp of the LFIP website, which required careful restructuring and a functional design, allowing the school to easily and regularly manage updates.",
     "categories": ["Prototyping & Wireframing", "frontend development", "wordpress cms integration"],
     "year": "2017",
-    "site": "lfip.net.cn",
+    "site": "https://lfip.net.cn",
     "note": "",
     "visuals": ["lfip-03.jpg"]
   },
@@ -123,7 +123,7 @@
       "Together with the PBB Creative team, I had the chance to work on designing and developing the new Alwin Capital’s corporate website. This site was built to provide its audience with concise information about the company’s vision for investment in science. It features a portfolio section, categorized by the different industries in which Alwin Capital is active.",
     "categories": ["web design", "frontend development", "wordpress cms integration", "deployment for china"],
     "year": "2018",
-    "site": "italus.com.cn",
+    "site": "https://italus.com.cn",
     "note": "",
     "visuals": ["italus-04.jpg", "italus-05.jpg"]
   },
@@ -139,7 +139,7 @@
       "Yifuze is an investment company working across healthcare, new energy and high-tech manufacturing amongst other industries. The company was looking to establish a preliminary online presence, and so requested a simple one page site, which helped them introduce their business to prospects.",
     "categories": ["web design", "frontend development", "mobile adaptation"],
     "year": "2016",
-    "site": "e-future.com",
+    "site": "http://e-future.com",
     "note": "",
     "visuals": ["yifuze-03.jpg"]
   }

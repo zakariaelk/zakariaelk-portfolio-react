@@ -37,6 +37,15 @@
   }
 }
 
+// ===== Top, Right, Bottom, Left ===== //
+
+@mixin trbl($t, $r, $b, $l) {
+  top: $t;
+  right: $r;
+  bottom: $b;
+  left: $l;
+}
+
 // ===== Fluid Typography ===== //
 
 // Constants
