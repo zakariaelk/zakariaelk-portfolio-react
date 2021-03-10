@@ -6,9 +6,9 @@ export default function Footer() {
       <section id="about">
         <div className="about-container">
           <div className="intro">
-            I love to <span className="mark"> express new ideas </span> through design and code.
+            I work to <span className="mark"> discover new ideas </span> through design and code.
             <br />
-            When I am not working, I enjoy <span className="mark">running and playing the guitar</span> <div className="guitar">🎸</div>
+            Outside work, I enjoy <span className="mark">running and playing the guitar.</span> <div className="guitar"></div>
           </div>
 
           <div className="contact-info">

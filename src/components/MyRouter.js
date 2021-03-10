@@ -10,14 +10,6 @@ export default function MyRouter(props) {
       <Switch>
         <Route path="/" exact component={Home} />
 
-        {/* <Route
-          path="/"
-          exact
-          render={(props) => {
-            <Home {...props} project={data.projects} />;
-          }}
-        /> */}
-
         <Route
           path="/work/:id"
           exact
