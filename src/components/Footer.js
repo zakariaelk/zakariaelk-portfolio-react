@@ -6,7 +6,7 @@ export default function Footer() {
       <section id="about">
         <div className="about-container">
           <div className="intro">
-            I find great value in <span className="mark"> bringing impact </span> through design and code.&nbsp;
+            I find great value in <span className="mark">impactful </span>design and code.&nbsp;
             <br />
             Outside work, I enjoy <span className="mark">running and playing the guitar.</span> <div className="guitar"></div>
           </div>
