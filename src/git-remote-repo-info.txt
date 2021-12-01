@@ -1,0 +1,12 @@
+Web address: http://www.zakariaelk.com/zakariaelk-portfolio.git
+Repository path: /home/zakariaelk/private/git.repostorage/zakariaelk-portfolio.git
+Username: admin
+Password: sovuL4lu4cie6Coh
+
+
+
+SSH Info:
+
+IP: 195.42.142.234
+username: zakariaelk
+password: u1MkNaEW

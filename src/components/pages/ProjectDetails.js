@@ -56,7 +56,7 @@ export default function ProjectDetails(props) {
                 <p className="desc">{currentPost.excerpt}</p>
               </div>
               <div className="col-8 banner-visual">
-                <img src={`https://${window.location.hostname}/img/jpg/${currentPost.image2}`} alt={currentPost.title} />
+                <img src={`../../img/jpg/${currentPost.image2}`} alt={currentPost.title} />
               </div>
             </div>
             <i className="scroll-indic">&gt;</i>
@@ -107,7 +107,7 @@ export default function ProjectDetails(props) {
             {currentPost.visuals.map((visual, key) => {
               return (
                 <figure className="visual-figure" key={key}>
-                  <img src={`https://${window.location.hostname}/img/jpg/full/${visual}`} />
+                  <img src={`../../img/jpg/${visual}`} />
                 </figure>
               );
             })}

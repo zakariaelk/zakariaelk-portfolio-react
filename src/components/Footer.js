@@ -6,7 +6,7 @@ export default function Footer() {
       <section id="about">
         <div className="about-container">
           <div className="intro">
-            I work to <span className="mark"> discover new ideas </span> through design and code.
+            I find great value in <span className="mark"> bringing impact </span> through design and code.&nbsp;
             <br />
             Outside work, I enjoy <span className="mark">running and playing the guitar.</span> <div className="guitar"></div>
           </div>
@@ -19,7 +19,7 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/zakaria-elkhachia-8334aa35" className="linkedin" target="_blank">
                 <img src="/img/svg/linkedin.svg" alt="zakaria elkhachia linkedin" />
               </a>
-              <a href="media/zakaria-elkhachia_resume.pdf" className="cv" target="_blank" download>
+              <a href="https://www.zakariaelk.com/media/zakaria-elkhachia_resume.pdf" className="cv" target="_blank" download="zakaria-elkhachia_resume.pdf">
                 <img src="/img/svg/cv.svg" alt="zakaria elkhachia cv" />
               </a>
             </div>

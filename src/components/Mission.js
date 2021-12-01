@@ -28,7 +28,7 @@ export default function Mission() {
               <span></span>
             </div>
             <div className="static-welcome">
-              <span>Welcome to visit my work down below</span>
+              <span>Welcome to see some of my work </span>
             </div>
             <a href="#work-list" className="discover scroll">
               discover.

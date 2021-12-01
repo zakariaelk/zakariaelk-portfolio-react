@@ -5,11 +5,11 @@ export default function DynamicWelcome() {
 
   if (dynamicWelcome) {
     if (time > 6 && time < 12) {
-      dynamicWelcome.innerHTML = "How's your day starting?";
+      dynamicWelcome.innerHTML = "Best of the morning to you!";
     } else if (time >= 12 && time < 17) {
-      dynamicWelcome.innerHTML = "Having a nice afternoon?";
+      dynamicWelcome.innerHTML = "Having a great afternoon?";
     } else {
-      dynamicWelcome.innerHTML = "Having a good evening?";
+      dynamicWelcome.innerHTML = "How's your evening going?";
     }
   }
 }
