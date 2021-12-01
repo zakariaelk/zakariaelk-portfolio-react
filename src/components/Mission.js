@@ -26,9 +26,10 @@ export default function Mission() {
           <div className="welcome-statement">
             <div className="dynamic-welcome">
               <span></span>
+              {/* <span>Research . Learn . Create . Impact</span> */}
             </div>
             <div className="static-welcome">
-              <span>Welcome to see some of my work </span>
+              <span>Welcome to my UX/Web design portfolio</span>
             </div>
             <a href="#work-list" className="discover scroll">
               discover.

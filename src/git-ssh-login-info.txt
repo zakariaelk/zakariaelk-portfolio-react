@@ -10,3 +10,8 @@ SSH Info:
 IP: 195.42.142.234
 username: zakariaelk
 password: u1MkNaEW
+
+
+command to copy all content to parent folder:
+
+cp -R * $(pwd)/../
