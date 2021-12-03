@@ -15,3 +15,14 @@ password: u1MkNaEW
 command to copy all content to parent folder:
 
 cp -R * $(pwd)/../
+
+
+
+
+// Git - Only pull build folder
+
+git init
+git remote add origin https://github.com/zakariaelk/zakariaelk-portfolio-react.git
+git config core.sparsecheckout true
+echo /build/* > .git/info/sparse-checkout
+
