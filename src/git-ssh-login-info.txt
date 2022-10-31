@@ -14,7 +14,7 @@ password: u1MkNaEW
 
 command to copy all content to parent folder:
 
-BUILD YOUR CODE FIRST!!!
+BUILD YOUR CODE LOCALLY FIRST!!!
 cp -R * $(pwd)/../
 
 

@@ -39,7 +39,7 @@ export default function Header() {
           <div className="logo-link">
             <a href="/">
               <span className="top-part">Zakaria Elk.</span>
-              <span className="bottom-part">UX/Web Designer, Frontend Developer, SEO Strategist</span>
+              <span className="bottom-part">Product Designer</span>
             </a>
           </div>
 
