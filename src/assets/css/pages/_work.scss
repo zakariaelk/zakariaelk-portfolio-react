@@ -33,7 +33,11 @@
     }
 
     &:first-child {
-      padding-top: 140px;
+      padding-top: 40px;
+
+      @media #{$max-tablet} {
+        padding-top: 0px;
+      }      
     }
 
     &.inverted {

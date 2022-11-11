@@ -6,7 +6,7 @@
 
 /* Colors */
 
-$black: #010101;
+$black: #171717;
 $white: #ffffff;
 $gray: #666666;
 
@@ -28,10 +28,17 @@ $t-fill: fill 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
 /* Breakpoints */
 
-$max-phone: "only screen and (max-width : 600px)";
-$max-tablet: "only screen and (max-width : 991px)";
-$max-laptop: "only screen and (max-width : 1440px)";
+$max-small-phone: "screen and (max-width : 340px)";
+$max-phone: "screen and (max-width : 600px)";
+$max-tablet: "screen and (max-width : 991px)";
+$max-small-laptop: "screen and (max-width : 1140px)";
+$max-laptop: "screen and (max-width : 1280px)";
+$max-desktop: "screen and (max-width : 1480px)";
 
-$min-phone: "only screen and (min-width : 320px)";
-$min-tablet: "only screen and (min-width : 991px)";
-$min-laptop: "only screen and (min-width : 1440px)";
+$min-small-phone: "screen and (min-width : 340px)";
+$min-phone: "screen and (min-width : 600px)";
+$min-tablet: "screen and (min-width : 991px)";
+$min-small-laptop: "screen and (min-width : 1024px)";
+$min-laptop: "screen and (min-width : 1280px)";
+$min-desktop: "screen and (min-width : 1480px)";
+$min-large-screen: "screen and (min-width : 1550px)";

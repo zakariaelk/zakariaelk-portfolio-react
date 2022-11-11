@@ -784,7 +784,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #ffffff;
-  background-color: #010101;
+  background-color: #171717;
 }
 
 /**
@@ -820,19 +820,19 @@ h6 {
   font-weight: normal;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   h1 {
     letter-spacing: -1px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   h2 {
     letter-spacing: -1px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   h3 {
     letter-spacing: -1px;
   }
@@ -877,34 +877,34 @@ h3 {
 }
 
 /* Responsive font sizes */
-.size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+.size-1 {
   font-size: 64px;
 }
 
 @media (min-width: 320px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+  .size-1 {
     font-size: calc(57px + 100vw * 0.02187);
   }
 }
 
 @media (min-width: 1600px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+  .size-1 {
     font-size: 92px;
   }
 }
 
-.size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+.size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
   font-size: 48px;
 }
 
 @media (min-width: 320px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: calc(45px + 100vw * 0.00937);
   }
 }
 
 @media (min-width: 1600px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 60px;
   }
 }
@@ -928,18 +928,18 @@ h3 {
   }
 }
 
-.size-4, #about .about-container .intro {
+.size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
   font-size: 24px;
 }
 
 @media (min-width: 320px) {
-  .size-4, #about .about-container .intro {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: calc(23px + 100vw * 0.00313);
   }
 }
 
 @media (min-width: 1600px) {
-  .size-4, #about .about-container .intro {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: 28px;
   }
 }
@@ -998,82 +998,82 @@ body, header .top-header .logo-link a .bottom-part {
   }
 }
 
-@media only screen and (max-width: 1440px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 1280px) {
+  .size-1 {
     font-size: 56px;
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 320px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 1280px) and (min-width: 320px) {
+  .size-1 {
     font-size: calc(49.5px + 100vw * 0.02031);
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1600px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 1280px) and (min-width: 1600px) {
+  .size-1 {
     font-size: 82px;
   }
 }
 
-@media only screen and (max-width: 1440px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 1280px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 36px;
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 320px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 1280px) and (min-width: 320px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: calc(32px + 100vw * 0.0125);
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1600px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 1280px) and (min-width: 1600px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 52px;
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 320px) {
+@media screen and (max-width: 1280px) and (min-width: 320px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: calc(27px + 100vw * 0.00937);
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1600px) {
+@media screen and (max-width: 1280px) and (min-width: 1600px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: 42px;
   }
 }
 
-@media only screen and (max-width: 1440px) {
-  .size-4, #about .about-container .intro {
+@media screen and (max-width: 1280px) {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: 21px;
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 320px) {
-  .size-4, #about .about-container .intro {
+@media screen and (max-width: 1280px) and (min-width: 320px) {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: calc(20.25px + 100vw * 0.00234);
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1600px) {
-  .size-4, #about .about-container .intro {
+@media screen and (max-width: 1280px) and (min-width: 1600px) {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: 24px;
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link,
   #work div[role="link"] .next-link {
     font-size: 19px;
@@ -1087,105 +1087,105 @@ body, header .top-header .logo-link a .bottom-part {
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 991px) {
+  .size-1 {
     font-size: 62px;
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 320px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 991px) and (min-width: 320px) {
+  .size-1 {
     font-size: calc(57px + 100vw * 0.01562);
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 1600px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 991px) and (min-width: 1600px) {
+  .size-1 {
     font-size: 82px;
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 991px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 36px;
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 320px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 991px) and (min-width: 320px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: calc(31.5px + 100vw * 0.01406);
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 1600px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 991px) and (min-width: 1600px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 54px;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: 26px;
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 320px) {
+@media screen and (max-width: 991px) and (min-width: 320px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: calc(23.5px + 100vw * 0.00781);
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 1600px) {
+@media screen and (max-width: 991px) and (min-width: 1600px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: 36px;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 600px) {
+  .size-1 {
     font-size: 42px;
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 320px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .size-1 {
     font-size: calc(40.5px + 100vw * 0.00469);
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 1600px) {
-  .size-1, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
+@media screen and (max-width: 600px) and (min-width: 1600px) {
+  .size-1 {
     font-size: 48px;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 600px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 36px;
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 320px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: calc(34.5px + 100vw * 0.00469);
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 1600px) {
-  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
+@media screen and (max-width: 600px) and (min-width: 1600px) {
+  .size-2, .headline, #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome, #work .hero-content .banner-txt h1, .error-wrapper .error-txt {
     font-size: 42px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .size-3, #work-list .project-container .project-text .project-title, #work .info-content .info-title h2, #work .next-post-nav .next-label,
   #work div[role="link"] .next-label {
     font-size: 24px;
   }
-  .size-4, #about .about-container .intro {
+  .size-4, #home #home-welcome .welcome-content .welcome-statement div.static-welcome, #about .about-container .intro {
     font-size: 21px;
   }
   .size-5, header .top-header .logo-link a .top-part, #about .about-container .contact-info .email, #work-list .project-container .project-text .desc, #work .hero-content .banner-txt .desc, #work .info-content .info-details .info-intro, #work .info-content .info-details .info-list-container .info-list .list-details, #work .next-post-nav .next-link,
@@ -1323,14 +1323,15 @@ header {
   z-index: 20;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
+    position: absolute;
     padding: 2rem 2rem 1rem;
   }
 }
 
 header.scrolled {
-  background-color: rgba(0, 0, 0, 0.68);
+  background-color: rgba(23, 23, 23, 0.68);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
           backdrop-filter: saturate(180%) blur(20px);
   -webkit-transform: translate3d(0, -1rem, 0);
@@ -1359,7 +1360,7 @@ header .top-header .logo-link {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  color: #010101;
+  color: #171717;
 }
 
 header .top-header .logo-link a {
@@ -1372,7 +1373,7 @@ header .top-header .logo-link a .top-part {
   line-height: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header .top-header .logo-link a .top-part {
     font-size: 18px;
   }
@@ -1392,13 +1393,13 @@ header .top-header .logo-link a .bottom-part.scrolled {
   width: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header .top-header .logo-link a .bottom-part.scrolled {
     opacity: 0;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header .top-header .logo-link a .bottom-part.scrolled:after {
     width: 0%;
   }
@@ -1416,17 +1417,14 @@ header .top-header .logo-link a .bottom-part.scrolled {
 */
 /* Nav Toggle */
 /* Nav Menu */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .nav-wrapper {
     right: 2rem;
     -webkit-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     opacity: 0;
     visibility: hidden;
-  }
-  .nav-wrapper.scrolled {
-    opacity: 1;
-    visibility: visible;
+    display: none;
   }
 }
 
@@ -1435,8 +1433,17 @@ header .top-header .logo-link a .bottom-part.scrolled {
   position: relative;
   font-family: "ceraBold", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 0;
   z-index: 30;
   right: 15px;
@@ -1444,10 +1451,23 @@ header .top-header .logo-link a .bottom-part.scrolled {
   transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .nav-wrapper .nav-container .nav-menu a {
     right: 0;
   }
+}
+
+.nav-wrapper .nav-container .nav-menu a .icon {
+  margin: 5px 5px 0 0;
+}
+
+.nav-wrapper .nav-container .nav-menu a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-wrapper .nav-container .nav-menu a .chevron {
@@ -1522,7 +1542,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
   padding-right: 3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .boxed-wide {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1537,7 +1557,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
   display: block;
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   .boxed {
     padding-left: 0;
     padding-right: 0;
@@ -1545,14 +1565,14 @@ header .top-header .logo-link a .bottom-part.scrolled {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .boxed {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .boxed {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1577,7 +1597,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
   width: 50%;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .intro-text {
     width: 100%;
   }
@@ -1619,7 +1639,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 8.33333%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-1 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1631,7 +1651,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 16.66667%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-2 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1643,7 +1663,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 25%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-3 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1655,7 +1675,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 33.33333%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-4 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1667,7 +1687,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 41.66667%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-5 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1679,7 +1699,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 50%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-6 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1691,7 +1711,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 58.33333%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-7 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1703,7 +1723,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 66.66667%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-8 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1715,7 +1735,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 75%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-9 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1727,7 +1747,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 83.33333%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-10 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1739,7 +1759,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 91.66667%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-11 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1751,7 +1771,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
       flex-basis: 100%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .col-12 {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1815,7 +1835,7 @@ header .top-header .logo-link a .bottom-part.scrolled {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #010101;
+  background-color: #171717;
   opacity: 1;
   z-index: 5;
   -webkit-transition: all 0.5s ease;
@@ -1835,8 +1855,8 @@ header .top-header .logo-link a .bottom-part.scrolled {
   border-color: #ffffff;
   border-style: solid;
   border-radius: 50%;
-  border-right-color: #010101;
-  background-color: #010101;
+  border-right-color: #171717;
+  background-color: #171717;
   top: calc(50% - 25px);
   left: calc(50% - 25px);
   -webkit-animation: spinLoader 1s ease-in-out infinite;
@@ -1887,7 +1907,7 @@ svg,
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #home .side-visual {
     width: 60%;
     bottom: 0%;
@@ -1922,7 +1942,7 @@ svg,
   margin-bottom: 180px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #home #home-welcome {
     margin-bottom: 140px;
   }
@@ -1945,15 +1965,20 @@ svg,
           transform: translate3d(0, -50%, 0);
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 1140px) {
+  #home #home-welcome .welcome-content .welcome-statement {
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement {
     top: 50%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #home #home-welcome .welcome-content .welcome-statement {
-    top: 35%;
     padding: 0 2rem;
   }
 }
@@ -1964,19 +1989,19 @@ svg,
 }
 
 #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
-  height: 120px;
+  height: 80px;
   font-family: "ceraBold", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   letter-spacing: -3px;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
-    height: 100px;
+    height: 70px;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
     height: auto;
     overflow: visible;
@@ -1985,7 +2010,7 @@ svg,
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #home #home-welcome .welcome-content .welcome-statement div.dynamic-welcome {
     font-size: 36px;
     line-height: 1.2;
@@ -1995,33 +2020,38 @@ svg,
 }
 
 #home #home-welcome .welcome-content .welcome-statement div.static-welcome {
-  height: 90px;
+  width: 55%;
+  height: 200px;
   font-family: "ceraLight", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  letter-spacing: -3px;
   margin-bottom: 0.2rem;
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement div.static-welcome {
-    height: 70px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  #home #home-welcome .welcome-content .welcome-statement div.static-welcome {
+    font-size: 28px;
+    width: 70%;
     height: auto;
     overflow: visible;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #home #home-welcome .welcome-content .welcome-statement div.static-welcome {
-    max-width: 300px;
-    font-size: 26px;
+    width: 90%;
+    font-size: 21px;
     margin-bottom: 0.4rem;
-    letter-spacing: -2px;
     line-height: 1.3;
+    background-color: rgba(23, 23, 23, 0.68);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1rem;
+    left: -1rem;
   }
+}
+
+#home #home-welcome .welcome-content .welcome-statement div.static-welcome a {
+  font-family: "ceraBold", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 #home #home-welcome .welcome-content .welcome-statement div span {
@@ -2033,7 +2063,7 @@ svg,
   transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement div span {
     position: relative;
     line-height: 1.1;
@@ -2057,14 +2087,14 @@ svg,
           transform: translate3d(0.2rem, 0, 0) skewX(-10deg);
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement .discover:hover {
     -webkit-transform: translate3d(0rem, 0.6rem, 0) skewX(-10deg);
             transform: translate3d(0rem, 0.6rem, 0) skewX(-10deg);
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #home #home-welcome .welcome-content .welcome-statement .discover {
     -webkit-transform: translate3d(0rem, 0.6rem, 0);
             transform: translate3d(0rem, 0.6rem, 0);
@@ -2088,13 +2118,13 @@ svg,
   display: table;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #about {
     height: 90vh;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #about {
     height: 100vh;
   }
@@ -2109,7 +2139,7 @@ svg,
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #about .about-container {
     padding: 0 40px;
   }
@@ -2121,7 +2151,7 @@ svg,
   display: inline-block;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #about .about-container .intro {
     text-align: left;
     font-size: 21px;
@@ -2144,7 +2174,7 @@ svg,
   padding-left: 0.2rem;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #about .about-container .intro br {
     display: none;
   }
@@ -2158,7 +2188,7 @@ svg,
           transform: translateY(200px);
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #about .about-container .contact-info {
     -webkit-transform: translateY(70px);
             transform: translateY(70px);
@@ -2210,7 +2240,7 @@ svg,
   /* Project Container */
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .boxed-wide {
     padding-left: 0;
     padding-right: 0;
@@ -2232,26 +2262,32 @@ svg,
   /* project-container hover */
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container {
     margin: 100px auto;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .project-container {
     margin: 60px auto;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container {
     display: block;
   }
 }
 
 #work-list .project-container:first-child {
-  padding-top: 140px;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  #work-list .project-container:first-child {
+    padding-top: 0px;
+  }
 }
 
 #work-list .project-container.inverted {
@@ -2261,7 +2297,7 @@ svg,
           flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container.inverted {
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
@@ -2282,13 +2318,13 @@ svg,
   /* Hover Status on Work Item */
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-visual {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .project-container .project-visual {
     padding-bottom: 0;
     -webkit-transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -2316,12 +2352,12 @@ svg,
   top: 0;
   right: 0;
   z-index: 1;
-  background-color: #010101;
+  background-color: #171717;
   -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-visual a:after {
     display: none;
   }
@@ -2345,7 +2381,7 @@ svg,
   opacity: 1;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-visual img.img-1 {
     width: 100%;
     height: 100%;
@@ -2362,7 +2398,7 @@ svg,
   position: absolute;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-visual img.img-2 {
     display: none;
   }
@@ -2375,7 +2411,7 @@ svg,
   left: 0;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-visual canvas {
     display: none;
   }
@@ -2399,20 +2435,20 @@ svg,
           transform: translate3d(0, 0px, 0);
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   #work-list .project-container .project-text {
     padding-left: 2.5rem;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-text {
     width: 100%;
     padding: 1rem 0;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .project-container .project-text {
     padding: 1.3rem 1rem;
   }
@@ -2431,14 +2467,14 @@ svg,
   margin: 1rem 0 1.5rem;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container .project-text .desc {
     max-width: 60%;
     margin: 0.5rem 0 1.5rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .project-container .project-text .desc {
     max-width: 100%;
   }
@@ -2456,10 +2492,10 @@ svg,
 }
 
 #work-list .project-container .project-text .project-tags a:hover {
-  color: #010101;
+  color: #171717;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work-list .project-container .project-text .project-tags {
     font-size: 12px;
   }
@@ -2467,7 +2503,7 @@ svg,
 
 #work-list .project-container .project-text .project-action {
   padding: 0.4rem 0.7rem;
-  background: #010101;
+  background: #171717;
   color: #ffffff;
   -webkit-transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -2475,7 +2511,7 @@ svg,
 
 #work-list .project-container .project-text .project-action.dark {
   background-color: #ffffff;
-  color: #010101;
+  color: #171717;
 }
 
 #work-list .project-container .project-text .project-action:after {
@@ -2490,7 +2526,7 @@ svg,
   opacity: 0;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container:hover .project-visual img.img-1, #work-list .project-container:focus .project-visual img.img-1 {
     opacity: 1;
   }
@@ -2500,7 +2536,7 @@ svg,
   opacity: 1;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work-list .project-container:hover .project-visual img.img-2, #work-list .project-container:focus .project-visual img.img-2 {
     opacity: 0;
   }
@@ -2535,7 +2571,7 @@ svg,
   padding-bottom: 2vh;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work #project-hero {
     padding-top: 14vh;
     padding-bottom: 2vh;
@@ -2552,7 +2588,7 @@ svg,
   height: 100%;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .hero-content .container-l {
     -ms-flex-line-pack: center;
         align-content: center;
@@ -2572,7 +2608,7 @@ svg,
   transition: transform 0.6s ease, opacity 0.3s ease 0.1s, -webkit-transform 0.6s ease;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .hero-content .banner-txt {
     margin-bottom: 4rem;
   }
@@ -2596,7 +2632,7 @@ svg,
   line-height: 1.3;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .hero-content .banner-txt .desc {
     max-width: 100%;
   }
@@ -2639,7 +2675,7 @@ svg,
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #010101;
+  background-color: #171717;
   -webkit-transition: all 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -2648,7 +2684,7 @@ svg,
   width: 0;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .hero-content .banner-visual {
     height: auto;
   }
@@ -2661,7 +2697,7 @@ svg,
      object-fit: cover;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .hero-content .banner-visual img {
     height: auto;
   }
@@ -2692,13 +2728,13 @@ svg,
   padding: 180px 0;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work #project-info {
     padding: 0px 0px 100px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work #project-info {
     padding: 60px 0px;
   }
@@ -2709,7 +2745,7 @@ svg,
   text-align: center;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .info-content .info-title h2 {
     text-align: left;
     margin-bottom: 1.2rem;
@@ -2724,7 +2760,7 @@ svg,
   margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .info-content .info-details .info-intro {
     margin-bottom: 60px;
   }
@@ -2743,7 +2779,7 @@ svg,
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .info-content .info-details .info-list-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2752,7 +2788,7 @@ svg,
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .info-content .info-details .info-list-container .info-list {
     margin-bottom: 1.5rem;
   }
@@ -2764,7 +2800,7 @@ svg,
   display: block;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .info-content .info-details .info-list-container .info-list .list-title {
     margin-bottom: 0.2rem;
   }
@@ -2777,7 +2813,7 @@ svg,
   text-transform: lowercase;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .info-content .info-details .info-list-container .info-list .list-details {
     line-height: 1.4;
   }
@@ -2787,7 +2823,7 @@ svg,
   overflow: hidden;
   position: relative;
   display: inline-block;
-  color: #010101;
+  color: #171717;
   padding: 0rem 0.4rem;
   margin-left: -0.4rem;
   line-height: 1.3;
@@ -2805,7 +2841,7 @@ svg,
   width: 100%;
   z-index: -1;
   height: 100%;
-  background-color: #010101;
+  background-color: #171717;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -2841,7 +2877,7 @@ svg,
   color: #666666;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .info-content .info-details .info-list-container .info-list .site-link-note {
     font-size: 12px;
     margin-top: 0.2rem;
@@ -2854,19 +2890,19 @@ svg,
   padding: 130px;
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1280px) {
   #work .visual-content .visual-figure {
     padding: 70px;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .visual-content .visual-figure {
     padding: 0;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .visual-content .visual-figure {
     margin-bottom: 4rem;
   }
@@ -2886,7 +2922,7 @@ svg,
   transition: all 0.4s ease 0.2s;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .visual-content .visual-figure img {
     -webkit-box-shadow: 2px 2px 6px 1px #1b1b1b;
             box-shadow: 2px 2px 6px 1px #1b1b1b;
@@ -2909,7 +2945,7 @@ svg,
           justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #work .next-post-nav,
   #work div[role="link"] {
     padding: 4rem 0;
@@ -2962,7 +2998,7 @@ svg,
   transition: all 0.3s ease;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .next-post-nav .next-label:before,
   #work div[role="link"] .next-label:before {
     height: 2px;
@@ -2972,10 +3008,10 @@ svg,
 
 #work .next-post-nav:hover .next-label,
 #work div[role="link"]:hover .next-label {
-  color: #010101;
+  color: #171717;
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #work .next-post-nav:hover .next-label,
   #work div[role="link"]:hover .next-label {
     color: #ffffff;
